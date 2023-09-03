@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" version="6.0">
+  <servlet>
+    <description></description>
+    <display-name>HomeServlet</display-name>
+    <servlet-name>HomeServlet</servlet-name>
+    <servlet-class>servlets.HomeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HomeServlet</servlet-name>
+    <url-pattern>/HomeServlet</url-pattern>
+  </servlet-mapping>
+  <display-name>Web</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Crud</display-name>
+    <servlet-name>Crud</servlet-name>
+    <servlet-class>servlets.Crud</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Crud</servlet-name>
+    <url-pattern>/Crud</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ServletCrud</display-name>
+    <servlet-name>ServletCrud</servlet-name>
+    <servlet-class>servlets.ServletCrud</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletCrud</servlet-name>
+    <url-pattern>/ServletCrud</url-pattern>
+  </servlet-mapping>
+</web-app>
