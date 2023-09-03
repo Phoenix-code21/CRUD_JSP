@@ -26,6 +26,17 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
+	     
+	      <div class="py-1 text-center">
+			<div class="container">
+				 <div class="row">
+				    <div class="col-md-12">
+				         <h1>Tela de excluir dados</h1>
+				     </div>
+				  </div>
+			  </div>
+	  		</div>
+	  		
           <div class="card">
             <div class="card-header"> Excluir </div>
             <div class="card-body">
@@ -40,7 +51,7 @@
 	             	 	<input type="hidden" name="id" value="<%= rs.getString("id") %>" />
 	             	 	<button type="submit" class="btn btn-success">Sim</button>
 	              	 </form>
-	              </div><hr>
+	              </div><hr>  
 	              <div class="col-md-12">
 	             	 <form method="POST" action="ServletCrud">
 	              	    <input type="hidden" name="action" value="delete" />
